@@ -13,7 +13,7 @@ find_package(Qt5 COMPONENTS
         REQUIRED)
 
 
-add_executable(37_1_calc_qt main.cpp calc.ui)
+add_executable(37_1_calc_qt main.cpp calc.ui calcmainwindow.h)
 
 target_link_libraries(37_1_calc_qt
         Qt5::Core
